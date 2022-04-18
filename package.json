@@ -1,0 +1,8 @@
+{
+  "name": "vue3-changes-slidev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KumJungMin/vue3-changes-slidev.git",
+  "author": "KumJungMin <rmawjdals@naver.com>",
+  "license": "MIT"
+}
