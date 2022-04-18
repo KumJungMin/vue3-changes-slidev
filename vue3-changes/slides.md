@@ -3,7 +3,7 @@
 theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: "./images/andras-vas-Bd7gNnWJBkU-unsplash.jpg"
+background: "./images/vue.png"
 # apply any windi css classes to the current slide
 class: "text-center"
 # https://sli.dev/custom/highlighters.html
@@ -30,7 +30,7 @@ fonts:
 
 # Vue3 변경점 알아보기
 
-desktop, mobile에서 수정한 변경점을 공유하고자 합니다.
+desktop, mobile에서 수정한 변경점을 알아봅시다!
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -54,22 +54,23 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# What is Slidev?
+# 목차
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+- **Vue3 변경점**
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+  - deep 방식 변경
+  - 키코드 수식어 미지원
+  - v-model 관련 변경
+  - 전역 API 변경
+  - Vue.set, Vue.delete 미지원
+  - render func argument 방식 변경
+  - 보류중
+  - id=”app” 자동 생성
+  - slot, slot-scope 사용법 변경
+  - 이벤트 버스 미지원
+  - 기타
 
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+- **라이브러리 변경점**
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
